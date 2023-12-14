@@ -14,4 +14,4 @@
 
 #!/usr/bin/env bash
 
-sudo mn --custom topo.py --topo bridge --link tc --controller remote --switch ovsk --mac
+sudo mn --custom topo_router.py --topo bridge --link tc --controller remote --switch ovsk --mac
